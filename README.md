@@ -1,53 +1,55 @@
-🚀 OpenStudy - Kişiselleştirilmiş LGS Çalışma Paneli
+# OpenStudy: Kişiselleştirilmiş LGS Hazırlık ve Veri Analiz Platformu
 
-OpenStudy, 8. sınıf öğrencilerinin LGS (Liselere Geçiş Sistemi) hazırlık sürecini daha organize, verimli ve motive edici hale getirmek için tasarlanmış, mobil öncelikli (mobile-first) bir Progressive Web App (PWA) çözümüdür.
+OpenStudy, 8. sınıf öğrencilerinin LGS (Liselere Geçiş Sistemi) hazırlık süreçlerini dijitalleştirmek, akademik verimliliği artırmak ve sınav momentumunu takip etmek amacıyla geliştirilmiş, mobil öncelikli (mobile-first) bir Progressive Web App (PWA) çözümüdür.
 
-Sıradan bir "yapılacaklar listesi" olmanın ötesine geçerek; odaklanma sürelerini, soru çözüm istatistiklerini ve sınav geri sayımını tek bir şık arayüzde birleştirir.
+Platform, standart görev yönetim araçlarından farklı olarak; odaklanma biyometrisi, akademik veri analitiği ve kullanıcı motivasyonunu tek bir entegre arayüzde birleştirir.
 
-✨ Temel Özellikler
+---
 
-🎯 Mobil Odaklı Tasarım: Telefonlardan ve tabletlerden en iyi deneyimi sunmak için SPA (Single Page Application) yapısında ve alt navigasyon barı ile tasarlanmıştır.
+## Temel Fonksiyonlar ve Modüller
 
-⏱️ Pomodoro Sayacı: LGS ders sürelerine (40 dakika ders, 10 dakika mola) optimize edilmiş, görsel geri bildirimli odaklanma zamanlayıcısı.
+### Akademik Odaklanma Motoru (Focus Engine)
+LGS sınav dinamiklerine uygun olarak kalibre edilmiş 40 dakika ders ve 10 dakika mola (40/10) protokolü üzerine inşa edilmiştir. Görsel geri bildirimli zamanlayıcı, bilişsel yükü optimize ederek dikkat dağınıklığını minimize eder.
 
-📊 Akıllı Veri Takibi: Ders bazlı doğru, yanlış ve net sayılarını kaydedebilme. 3 yanlışın 1 doğruyu götürdüğü LGS mantığına uygun otomatik net hesaplama.
+### Veri Analitiği ve Performans Takibi
+* **Otomatik Net Hesaplama:** 3 yanlışın 1 doğruyu elediği LGS standartlarına uygun algoritma ile ders bazlı net analizi.
+* **Momentum Grafikleri:** Chart.js entegrasyonu ile haftalık ve aylık gelişim süreçlerinin görselleştirilmesi.
 
-📈 Performans Analizi: Çözülen soruları ve net değişimlerini gösteren etkileşimli grafikler (Chart.js entegrasyonu).
+### Kültürel Entegrasyon ve Motivasyon
+Öğrenci psikolojisini desteklemek adına tasarlanan "Günün Sözü" alanı; Duman grubu şarkı sözleri ve edebi alıntılar üzerinden rastgele veri çekerek kullanıcı motivasyonunu dinamik tutar.
 
-⏳ LGS Geri Sayım: Sınav tarihine kalan süreyi ana ekranda canlı olarak takip edebilme.
+### Yerel Veri Güvenliği (Local-First Architecture)
+Kullanıcı gizliliği protokolü gereği tüm veriler tarayıcı seviyesinde (LocalStorage API) saklanır. Veriler üçüncü taraf sunuculara iletilmez, tamamen kullanıcının kontrolündeki cihazda barındırılır.
 
-🎸 Motivasyon Bölümü: Duman grubu şarkı sözlerinden ve ilham verici alıntılardan oluşan rastgele "Günün Sözü" alanı.
+---
 
-💾 Yerel Depolama: localStorage teknolojisi sayesinde verileriniz sunucuya ihtiyaç duymadan doğrudan tarayıcınızda saklanır.
+## Teknik Spesifikasyonlar
 
-🛠️ Kullanılan Teknolojiler
+OpenStudy, modern web standartları ve performans odaklı kütüphaneler kullanılarak optimize edilmiştir:
 
-Frontend: HTML5, Modern CSS3
+* **Frontend:** HTML5, Modern CSS3
+* **UI Framework:** Tailwind CSS (Atomic Design ilkeleriyle)
+* **Veri Görselleştirme:** Chart.js
+* **İkon Seti:** Lucide React (Web Component mimarisi)
+* **Dağıtım:** PWA Standartları (Ana Ekrana Ekleme desteği)
 
-UI Framework: Tailwind CSS
+---
 
-Grafikler: Chart.js
+## Stratejik Ürün Yol Haritası
 
-İkonlar: Lucide React (Web Component versiyonu)
+1. **Yapay Zeka Entegrasyonu:** TCYZ altyapısı kullanılarak geliştirilen, hatalı soru paternlerine göre konu çalışma önerileri sunan Python tabanlı model desteği.
+2. **Bulut Senkronizasyonu:** Cross-platform veri sürekliliği için Google Firestore entegrasyonu.
+3. **Deneme Sınavı Simülasyonu:** Gerçek sınav süresi ve tüm dersleri kapsayan bütünleşik test modülü.
 
-Depolama: Browser LocalStorage API
+---
 
-🚀 Nasıl Çalıştırılır?
+## Çalıştırma Talimatları
 
-Bu proje herhangi bir kurulum veya bağımlılık yönetimi gerektirmez.
+Proje, herhangi bir kurulum bağımlılığı (zero-dependency) gerektirmeyen bir yapıdadır.
+1. `index.html` dosyasını tarayıcı üzerinde çalıştırın.
+2. Mobil deneyim için tarayıcı ayarlarından "Ana Ekrana Ekle" özelliğini aktif hale getirerek yerel uygulama performansına erişin.
 
-index.html dosyasını indirin.
+---
 
-Herhangi bir modern web tarayıcısında (Chrome, Safari, Edge vb.) dosyayı açın.
-
-Mobil Deneyim İçin: Tarayıcınızın "Ana Ekrana Ekle" (Add to Home Screen) özelliğini kullanarak bir uygulama gibi kullanmaya başlayabilirsiniz.
-
-📅 Gelecek Planları
-
-[ ] Yapay Zeka Entegresi: Eksik analizine göre çalışma önerileri sunan Python tabanlı bir model.
-
-[ ] Bulut Senkronizasyonu: Verilerin farklı cihazlar arasında paylaşılabilmesi için Firestore desteği.
-
-[ ] Deneme Sınavı Modu: Süreli ve tüm dersleri kapsayan tam kapsamlı deneme giriş ekranı.
-
-OpenStudy, sınav stresini yönetmenize ve hedeflerinize emin adımlarla ilerlemenize yardımcı olmak için geliştirilmiştir.
+**Kurucu:** Doruk KAHRAMAN  
+**Proje:** OpenStudy Ecosystem
