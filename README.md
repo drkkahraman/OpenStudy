@@ -18,7 +18,7 @@ LGS sınav dinamiklerine uygun olarak kalibre edilmiş 40 dakika ders ve 10 daki
 * **Momentum Grafikleri:** Chart.js entegrasyonu ile haftalık ve aylık gelişim süreçlerinin görselleştirilmesi.
 
 ### Kültürel Entegrasyon ve Motivasyon
-Öğrenci psikolojisini desteklemek adına tasarlanan "Günün Sözü" alanı; Duman grubu şarkı sözleri ve edebi alıntılar üzerinden rastgele veri çekerek kullanıcı motivasyonunu dinamik tutar.
+Öğrenci psikolojisini desteklemek adına tasarlanan "Günün Sözü" alanı vardır ve motive edici cümleler bulunur.
 
 ### Yerel Veri Güvenliği (Local-First Architecture)
 Kullanıcı gizliliği protokolü gereği tüm veriler tarayıcı seviyesinde (LocalStorage API) saklanır. Veriler üçüncü taraf sunuculara iletilmez, tamamen kullanıcının kontrolündeki cihazda barındırılır.
