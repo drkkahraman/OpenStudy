@@ -2,6 +2,8 @@
 
 # OpenStudy: Kişiselleştirilmiş LGS Hazırlık ve Veri Analiz Platformu
 
+Bu uygulama artık desteklenmemektedir.
+
 OpenStudy, 8. sınıf öğrencilerinin LGS (Liselere Geçiş Sistemi) hazırlık süreçlerini dijitalleştirmek, akademik verimliliği artırmak ve sınav momentumunu takip etmek amacıyla geliştirilmiş, mobil öncelikli (mobile-first) bir Progressive Web App (PWA) çözümüdür.
 
 Platform, standart görev yönetim araçlarından farklı olarak; odaklanma biyometrisi, akademik veri analitiği ve kullanıcı motivasyonunu tek bir entegre arayüzde birleştirir.
